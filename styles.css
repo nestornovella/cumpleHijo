@@ -40,7 +40,9 @@
   padding: 20px;
   margin: 40px 0;
 }
-
+.subTitle span{
+  font-size: 40px;
+}
 .torta{
   width: 100%;
   margin-bottom: 20px;
