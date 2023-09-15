@@ -115,6 +115,8 @@ body {
   width: 100%;
   height: 200px;
   background: url("./mapa.png");
+  background-position: center;
+  background-size: cover;
 }
 .footer {
   padding: 5px;
