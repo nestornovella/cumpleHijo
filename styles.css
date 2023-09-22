@@ -4,6 +4,16 @@
   --cardColor: rgba(0, 0, 0, 0.873);
 }
 
+.advertencia{
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  animation: alert 10s ease-in-out infinite;
+}
+
 .image {
   width: 100%;
   margin-top: 50px;
@@ -48,7 +58,7 @@
   margin-bottom: 20px;
 }
 body {
-  background: url("./fondo2.jpeg");
+  background: url("https://wallpapers.com/images/featured/pantalla-del-telefono-z9wp3f5bwrs20o60.jpg");
   background-size: cover;
   background-attachment: fixed;
 
@@ -127,4 +137,21 @@ body {
 .footer img {
   width: 100%;
   border-radius: 10px;
+}
+
+
+@keyframes alert {
+  0%{
+    background-color: blue;
+  }
+  20%{
+    background-color: orangered;
+
+  }
+  50%{
+    background-color: green;
+  }
+  100%{
+    background-color: red;
+  }
 }

@@ -26,7 +26,7 @@ const $sec = $('sec')
 
 
 setInterval(()=>{
-    const timeToParty = cronos('2023-09-23T19:03:08.598Z')
+    const timeToParty = cronos('2023-09-30T19:03:08.598Z')
     
     $days.textContent = timeToParty.daysRest
     $hour.textContent = timeToParty.hoursRest
