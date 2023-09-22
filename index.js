@@ -34,5 +34,6 @@ setInterval(()=>{
     $sec.textContent = timeToParty.secondsRest
 }, 1000)
   
-  
+
+alert("El sabado 23 se suspendio por lluvia!")
   
